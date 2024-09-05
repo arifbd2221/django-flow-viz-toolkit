@@ -1,6 +1,10 @@
 # Django Flow Viz Toolkit
 
+![Flowchart Example](https://raw.githubusercontent.com/arifbd2221/django-flow-viz/main/flowcharts/project_flowchart.png)
+
 A Django management command that generates flowcharts for your Django project, including models, URLs, middleware, and signals.
+
+You can find this package on [PyPI](https://pypi.org/project/django-flow-viz-toolkit/).
 
 ## Features
 - Generates project-wide or app-wise flowcharts.
@@ -44,6 +48,3 @@ To generate app-wise flowcharts:
 ```
 python manage.py generate_flowchart --app-wise
 ```
-
-
-![Flowchart Example](https://raw.githubusercontent.com/arifbd2221/django-flow-viz/main/flowcharts/project_flowchart.png)
