@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-flow-viz-toolkit',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -10,11 +10,6 @@ setup(
         'pygraphviz>=1.13',  # Specifying the tested version of pygraphviz
         'tqdm>=4.66.5',      # Specifying the tested version of tqdm
     ],
-    entry_points={
-        'console_scripts': [
-            'generate-flowchart = flowchart_visualizer.management.commands.generate_flowchart:Command',
-        ],
-    },
     license='MIT',       # Choose an appropriate license
     description='A tool to generate flowcharts for Django projects',
     long_description=open('README.md').read(),
