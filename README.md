@@ -33,7 +33,7 @@ After installation, include `django-flow-viz-toolkit` in the `INSTALLED_APPS` in
 ```
 INSTALLED_APPS = [
     ...
-    'django-flow-viz-toolkit',
+    'flowchart_visualizer',
     ...
 ]
 ```
